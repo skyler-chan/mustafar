@@ -32,3 +32,10 @@ def generate_img(city, planet):
 def manipulate_prompt(city, planet):
     prompt = f"City on {planet} in the year 2050 with human habitats. Create realistic image with higher resolution of {city}"
     return prompt
+
+
+
+
+#other prompt version: f"City on {planet} in the year 2050 with human habitats. Create realistic image with higher resolution of {city}. best quality, ultra-detailed, masterpiece, beautiful lighting, intricate (high detail:1.2), dark intense shadows, dramatic lighting, (chromatic aberration:1.0),(extremely detailed CG unity 8k wallpaper), (best quality), (ultra-detailed), (best illustration), (best shadow)"
+
+# note: brackets in a prompt makes the model focus in more onto those key words
